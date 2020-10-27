@@ -9,4 +9,4 @@ def createKeis():
             key = Fernet.generate_key()
             with open("Key\\"+filename+"_"+"key.key", "wb") as key_file:
                 key_file.write(key)
-    print('all keies created!')
+    print('all keys created!')
